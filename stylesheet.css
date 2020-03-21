@@ -4,6 +4,7 @@ p{
   color: #393939;
 }
 
+
 /*  effectのクラスの子要素effect-moveをスクロール時発動*/
 .effect-move{
   transition: 2s;
@@ -16,22 +17,29 @@ p{
 .top-wrapper{
   height: 100vh; /*高さ画面幅１００％*/
   margin-top:0px;
-  background-image: url(img/top.jpg);
+  background-image: url(img/chase-kinney-FMQBLyhD2HU-unsplash.jpg);
   background-size: cover;
-  background:rgba(255, 0, 0, 0.5);
 }
 .top-wrapper h1{
-  color: #fff0f5;
+  color: white;
   font-weight: bold;
   font-size:60px;
-  padding-top:40vh;
+  padding-top:10vh;
   text-align: center;
 }
+.top-wrapper p{
+  color:white;
+  padding:50px;
+  font-weight: bold;
+  font-size: 2em;
+}
 
+/*  */
+/* 私たち */
+/*  */
 .aboutus-wrapper{
   margin-top:20vh;
   text-align:center;
-
 }
 .aboutus-wrapper h2{
   margin-bottom: 6vh;
@@ -40,19 +48,70 @@ p{
   font-size:3em;
 }
 
+
+/*  */
+/* サービス */
+/*  */
 .service-wrapper-background{
   margin-top:20vh;
   background-color: #FFC824;
   padding:15vh 0 15vh 0;
 }
+.service-wrapper-background h2{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 80px;
+}
 .service-wrapper img{
   border-radius: 200px;
 }
+.service-wrapper h3{
+  margin-top:20px;
+  color:white;
+}
 .service-wrapper p{
-  margin-top:50px;
+  margin-top:30px;
   color:#FFFFFF;
 }
+.service-plans {
+  text-align:center;
+  width: 100%;
+  margin-top:100px;
+}
+.service-card{
+  box-shadow:0 0 12px rgba(0,0,0,.1);
 
+  padding: 5%;
+  border-radius: 6px;
+  margin-top:50px;
+  background-color: white;
+}
+.service-card h4{
+  color:gray;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+}
+.service-card span{
+  font-size: 0.8em;
+}
+.service-wrapper ul{
+  list-style: none;
+  padding-left: 0;
+  color:gray;
+}
+.service-wrapper li{
+  padding-top:5px;
+}
+
+
+
+/*  */
+/* 強み */
+/*  */
 .strong-wrapper{
   margin-top:20vh;
   text-align: center;
@@ -70,13 +129,14 @@ p{
 }
 
 
+/*  */
+/* メンバー */
+/*  */
 .member-wrapper-background {
-
-
-  background:rgba(255, 0, 0, 0.5);
-
+  background-image: url(img/tyler-nix-qs0im4pLYbE-unsplash.jpg);
   margin-top:20vh;
-  height: 60vh;
+  height: 1700px;
+  background-size: cover;
 }
 .member-wrapper-background span{
   font-size: 0.8em;
@@ -89,25 +149,54 @@ p{
   text-align: center;
   padding:15vh 0 15vh 0;
 }
-
 .member-wrapper{
   background-color: white;
   box-shadow:0 0 12px rgba(0,0,0,.1);
+  margin-top:30px;
+}
+.member-wrapper h3{
+  color:gray;
+  font-weight: bold;
+  margin-top:40px;
+  font-size: 1.7em;
 }
 .member-wrapper p{
-  margin:7% 0;
+  margin-bottom: 40px;
+  margin-top:10px;
+  color:gray;
 }
 
 
+/*  */
+/* 会社 */
+/*  */
+.company-wrapper h2{
+  color:gray;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.company-wrapper{
+  margin:150px 0;
+}
+.company-wrapper ul{
+  list-style: none;
+  padding-left: 0;
+  color:gray;
+}
 
+
+/*  */
+/* お問い合わせ */
+/*  */
 .contact-wrapper-background{
-  margin-top:40vh;
   background-color: #FFC824;
-  padding:5vh 0 5vh 0;
+  padding:50px 0 70px 0;
 }
 .contact-wrapper h2{
   color:white;
-  font-size:1.5em;
+  font-size:1.3em;
   font-weight: bold;
   text-align: center;
   margin-top:50px;
@@ -121,4 +210,23 @@ p{
   font-size: 1.5em;
   padding-bottom: 5px;
   padding-left: 5px;
+}
+
+
+
+/*  */
+/* vision */
+/*  */
+.vision-wrapper{
+  margin-top:-5px;
+  height: 100vh;
+  background-image: url(img/nourdine-diouane-hcJnA6Tvy8g-unsplash.jpg);
+  background-size: cover;
+}
+.vision-wrapper h2{
+  color: white;
+  font-weight: bold;
+  font-size:2.5em;
+  padding-top:40vh;
+  text-align: center;
 }

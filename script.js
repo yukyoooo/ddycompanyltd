@@ -15,7 +15,7 @@ $(function(){
       } else {
         $(".effect-move",this).css({
           "opacity":"0",
-          "margin-top":"200px"
+          "margin-top":"100px"
         });
       }
     });
