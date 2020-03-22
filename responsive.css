@@ -1,0 +1,119 @@
+/*  タブレット向けレイアウト*/
+@media all and (max-width: 992px) {
+
+.service-wrapper img{
+  width: 100%;
+  height:auto;
+  margin-top:10vh;
+}
+.service-card {
+  padding:3%;
+}
+.member-wrapper-background h2{
+  padding:70px 0;
+}
+.member-wrapper{
+  margin-top:20px;;
+}
+.service-card{
+  margin-top:20px;
+}
+
+}
+
+/*  タブレット向けレイアウト*/
+@media all and (max-width: 761px) {
+.top-wrapper{
+  height: 500px;
+}
+.top-wrapper p{
+  font-size: 1.3em;
+  padding: 10px;
+}
+.top-wrapper h1{
+  font-size: 40px;
+  padding-top:140px;
+}
+
+/* 私たち */
+.aboutus-wrapper{
+  margin-top:80px;
+}
+.aboutus-wrapper p{
+  font-size: 1em;
+}
+
+/* サービス */
+.service-wrapper-background{
+  margin-top:80px;
+  padding:50px 0;
+}
+.service-wrapper-background h2{
+  margin-bottom: 0px;
+}
+.service-wrapper-text {
+  text-align: center;
+}
+.service-plans{
+  margin-top:0px;
+}
+}
+.service-card {
+  padding: 20px;
+}
+
+
+/* 強み */
+.strong-wrapper{
+  margin-top:80px;
+}
+.strong-wrapper h2{
+  width: 300px;
+}
+
+/* メンバー */
+.member-wrapper-background {
+  height: 1600px;
+  margin-top:80px;
+}
+.member-wrapper-background h2{
+  font-size:1.1em;
+  padding:40px 0 20px 0;
+}
+.member-wrapper{
+  padding: 0 20px;
+}
+.member-wrapper h3{
+  margin-top:30px;
+  font-size: 1.1em;
+}
+.member-wrapper p{
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+/* 会社 */
+.company-wrapper{
+  margin:70px 0;
+}
+.company-wrapper li{
+  font-size: 0.9em;
+}
+
+/* お問い合わせ */
+.contact-wrapper h2{
+  font-size: 1.1em;
+  margin-top:30px;
+}
+
+/* vision */
+.vision-wrapper{
+  height: 300px;
+}
+.vision-wrapper h2{
+  padding-top: 120px;
+  font-size: 1.2em;
+}
+
+
+}
