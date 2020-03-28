@@ -40,8 +40,7 @@ p{
 .aboutus-wrapper{
   padding:20vh 0;
   text-align:center;
-  background-image:url(img/S__1400835.jpg);
-  background-size: cover;
+  background-color:white;
 }
 .aboutus-wrapper h2{
   margin-bottom: 6vh;
@@ -49,9 +48,7 @@ p{
   font-weight: bold;
   font-size:3em;
 }
-.aboutus-wrapper p{
-  color:white;
-}
+
 
 
 /*  */
@@ -138,9 +135,9 @@ p{
 /* メンバー */
 /*  */
 .member-wrapper-background {
+  height: 1680px;
   background-image: url(img/tyler-nix-qs0im4pLYbE-unsplash.jpg);
   margin-top:20vh;
-  height: 1700px;
   background-size: cover;
 }
 .member-wrapper-background span{
@@ -197,25 +194,34 @@ p{
 /* お問い合わせ */
 /*  */
 .contact-wrapper-background{
+  padding:100px 0;
   background-color: #FFC824;
-  padding:50px 0 70px 0;
 }
 .contact-wrapper h2{
   color:white;
   font-size:1.3em;
   font-weight: bold;
   text-align: center;
-  margin-top:50px;
+  margin-bottom: 60px;
+
 }
 .contact-wrapper p{
-  color:white;
-  margin-top:50px;
+  color:gray;
+  width: 600px;
+  margin:auto;
   text-align: center;
+  margin-top:20px;
+  border-radius: 10px;
+  background-color: #FFF7AA;
+  padding: 20px 5px;
+
 }
 .contact-wrapper span{
   font-size: 1.5em;
   padding-bottom: 5px;
+  color: #555555;
   padding-left: 5px;
+  font-weight: bold;
 }
 
 

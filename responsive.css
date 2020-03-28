@@ -38,6 +38,7 @@
 /* 私たち */
 .aboutus-wrapper{
   margin-top:80px;
+  padding:0;
 }
 .aboutus-wrapper p{
   font-size: 1em;
@@ -57,7 +58,6 @@
 .service-plans{
   margin-top:0px;
 }
-}
 .service-card {
   padding: 20px;
 }
@@ -73,8 +73,8 @@
 
 /* メンバー */
 .member-wrapper-background {
-  height: 1560px;
   margin-top:80px;
+  height: 1480px;
 }
 .member-wrapper-background h2{
   font-size:1.1em;
@@ -101,9 +101,19 @@
 }
 
 /* お問い合わせ */
+.contact-wrapper-background{
+  padding:60px 0;
+}
 .contact-wrapper h2{
-  font-size: 1.1em;
-  margin-top:30px;
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+.contact-wrapper p{
+  width: 310px;
+  margin-top:20px;
+}
+.contact-wrapper span{
+  font-size: 1.15em;
 }
 
 /* vision */
